@@ -1,0 +1,22 @@
+SELECT * FROM TP_MUSTEAT;
+
+SELECT * FROM TP_LIST;
+
+SELECT * FROM TP_MEMBER
+
+
+CREATE TABLE TEST_MEMBER
+(
+    SEQ          NUMBER          NOT NULL, --회원번호
+    ID           VARCHAR2(50)    NULL, --회원아이디
+    PWD          VARCHAR2(50)    NULL, --회원비밀번호
+    NAME         VARCHAR2(20)    NOT NULL, --회원이름
+    EMAIL        VARCHAR2(30)    NULL, --회원이메일
+    JOINDATE     DATE            NULL, --회원가입 날짜
+    CONSTRAINT TEST_MEMBER_PK PRIMARY KEY (ID)
+)
+
+
+CREATE SEQUENCE SEQ_TEST_MEMBER
+START WITH 1
+INCREMENT BY 1
