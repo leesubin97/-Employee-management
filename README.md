@@ -1,6 +1,7 @@
 # -Employee-management
 
-사원관리프로그램
+사원관리프로그램 test
+사원 추가 사원 
 
 ```
 CREATE TABLE MEMBER_COM
